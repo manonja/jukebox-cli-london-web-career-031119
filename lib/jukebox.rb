@@ -48,9 +48,10 @@ def run(songs)
   loop do 
     puts "Please enter a command:"
     user_answer = gets.chomp 
-    if user_answer == "list"
+    case user_answer
+    when "list"
       list(songs)
-    elsif user_answer == "play"
+    when "play"
       play(songs)
     elsif user_answer == "help"
       help 
