@@ -2,19 +2,22 @@
 #make sure to edit the value of each key to replace < path to this directory >
 #with the correct path to this directory on your computer
 
-# my_songs = {
-# "Go Go GO" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/01.mp3',
-# "LiberTeens" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/02.mp3',
-# "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
-# "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
-# "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
-# "Blue" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/06.mp3',
-# "Graduation Failed" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/07.mp3'
-# }
+my_songs = {
+"Go Go GO" => '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/01.mp3',
+"LiberTeens" => '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/02.mp3',
+"Hamburg" =>  '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/03.mp3',
+"Guiding Light" => '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/04.mp3',
+"Wolf" => '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/05.mp3',
+"Blue" => '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/06.mp3',
+"Graduation Failed" => '/home/manonja/jukebox-cli-london-web-career-031119/audio/Emerald-Park/07.mp3'
+}
 
-def help
-  #this method should be the same as in jukebox.rb
-
+def help 
+  puts "I accept the following commands:
+- help : displays this help message
+- list : displays a list of songs you can play
+- play : lets you choose a song to play
+- exit : exits this program"
 end
 
 
